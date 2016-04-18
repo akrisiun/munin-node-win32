@@ -1,6 +1,13 @@
-============================
-Munin Node for Windows
-============================
+## HowTo
+
+http://munin-monitoring.org/wiki/HowToMonitorWindows
+http://guide.munin-monitoring.org/en/latest/advanced/network.html
+http://stephenfritz.blogspot.lt/2014/06/windows-server-performance-monitoring.html
+
+msvcr71.dll and msvcp71.dll (part of the Microsoft C++ runtime) in the same directory as munin-node.exe
+
+
+# Munin Node for Windows
 
 Introduction
 ------------
@@ -122,11 +129,6 @@ Plugins
         graph_vlabel %
         drive_free_c.label C:
         .
-
-Version History
----------------
-See ChangeLog
-
 
 Building a release
 ------------------
